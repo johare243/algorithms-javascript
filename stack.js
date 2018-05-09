@@ -1,4 +1,4 @@
-//Implementation of a Stack (First In First Out) Data Structure
+//Implementation of a Stack (Last In First Out) Data Structure
 
 var Node = function(_content) {
   this.content = _content;
@@ -48,12 +48,14 @@ Stack.prototype.pop = function() {
   if (this.bottom == this.top) {
     this.bottom = null;
     this.top = null;
+    this.length--;
     return poppedNode;
   }
 
   //more than one node in stack
   this.top = this.top.last;
   this.top.next = null;
+  this.length--;
   return poppedNode;
 };
 
