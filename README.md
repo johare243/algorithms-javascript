@@ -1,8 +1,8 @@
 # JavaScript Data Structures and Algorithms
   Implementation of basic data structures and algorithms
   
-  1. [Gotchas In JavaScript](## Gotchas)
-  2. [Array Helper Functions](##Arrays)
+  1. [Gotchas In JavaScript](#Gotchas)
+  2. [Array Helper Functions](#Arrays)
 
 ## Gotchas
   Some important things to note when coding in JavaScript ES6
