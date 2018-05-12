@@ -1,8 +1,8 @@
 # JavaScript Data Structures and Algorithms
   Implementation of basic data structures and algorithms
   
-  1. [Gotchas In JavaScript][##Gotchas]
-  2. [Array Helper Functions][##Arrays]
+  1. [Gotchas In JavaScript](##Gotchas)
+  2. [Array Helper Functions](##Arrays)
 
 ##Gotchas
   Some important things to note when coding in JavaScript ES6
@@ -30,7 +30,7 @@
 ##Arrays
 
 | Function (Array.prototype.<function>)                   |    Description                           |
-| ---------------------------- |   ----------------------------------------------------------------- |
+| -------------------------------------- |   ----------------------------------------------------------------- |
 | slice(start, end)   | Returns portion of array from start to end, end not included |
 | reduce(callback[, initialValue])   | Applies a function against an accumulator and each elem in arr to reduce to a single value |
 | every(callback, [, thisArg])   | Tests whether all elems in the arr pass the test implemented by the provided function |
